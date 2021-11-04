@@ -1,0 +1,169 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+.navbar{
+    background-color: #273746;
+}
+.navbar .fab{
+    font-size: 40px;
+}
+.inicio{
+
+    background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(Imagenes/forex-05.jpg)no-repeat;
+    background-size: 100% 100%;
+    height: 100vh;
+    width: 100%;
+    color: white;
+}
+
+.inicio h1{
+    font-size: 3.5em;
+    font-weight: bold;
+}
+
+.inicio p{
+    font: arial;
+    font-size: 1.2em;
+}
+
+.inicio .boton1{
+    
+    height: 45px ; 
+    width: 150px ;
+    background-color: transparent;
+    color: white;
+    outline: none;
+    border: 2px solid white;
+    font-weight: bold;
+    margin-left: 12px;
+}
+
+.boton1:hover{
+    background-color: #34495E;
+    color: white;
+    border: none; 
+}
+
+.presentacion{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: #EAF2F8;
+}
+
+.presentacion .p1{
+    font-size: 1.3rem;
+    color: gray;
+
+}
+.presentacion p{
+    color: gray;
+}
+.caracteristicas{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: #D6EAF8;
+}
+
+#caracteristica{
+    background-color: white;
+    padding: 20px 0;
+    color: #273746;
+}
+
+.caracteristicas .fas{
+    color:#34495E;
+    font-size: 60px;
+    padding-left: 25px;
+}
+
+.beneficios{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: #EAF2F8;
+}
+
+.beneficios p{
+
+color: black;
+}
+
+.beneficios .h1{
+
+color: #34495E;
+}
+
+
+
+.compra{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: #34495E;
+}
+.compra .card-tittle{
+    margin: 0,5rem 0;
+    font-size: 0,9 rem;
+    letter-spacing: .1 rem;
+    font-weight: bold;
+}
+.compra .card-price{
+font-size: 3rem;
+margin: 0;
+}
+
+.compra .card-price .period {
+    font-size:  0,8rem;
+}
+
+.compra ul li{
+    margin-bottom: 1rem;
+}
+
+.compra .text-muted{
+    opacity: 0.6;
+}
+
+.compra .btn{
+    font-size: 80%;
+    background-color: rgba(75, 61, 7, 0.857);
+    border-color: rgba(75, 61, 7, 0.857);
+    border-radius: 5rem;
+    letter-spacing: .1rem;
+    font-weight: bold;
+    padding: 1rem;
+    opacity: 0,7;
+    transition: all 0.2s;
+ 
+}
+
+@media (min-width: 992px){
+    .compra .card:hover {
+        margin-top: -.25rem;
+        margin-bottom: .25rem;
+        box-shadow: 0 0.4rem 1rem 0 rgba(0,0,0,0.3);
+    }
+    .compra .card:hover .btn{
+        opacity: 1;
+    }
+}
+
+
+
+.boton-contacto{
+    color: white;
+    background-color: rgba(75, 61, 7, 0.857);
+    color: white;
+    line-height: 2;
+    font-weight: bold;
+}
+
+
+footer{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: #273746;
+    color: white;
+}
+
+footer .fab{
+    font-size: 20px;
+    color: white;
+    padding: 0 25px;
+}
